@@ -1,9 +1,9 @@
 import React from 'react'
-import { Switch, Route, HashRouter} from 'react-router-dom';
+import { Switch, Route} from 'react-router-dom';
 
-import Dashboard from '../dashboard/dashboard'
+import Dashboard from '../dashboard2/dashboard2'
 import BillingCicle from '../billingCycle/billingCycle'
-import NotFound from '../common/notFound/notFound'
+import NotFound from '../common/template/notFound/notFound'
 
 export default props => (    
         <Switch>

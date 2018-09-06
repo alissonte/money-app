@@ -15,8 +15,4 @@ server.listen(port, function(){
     console.log(`BACKEND is running on port ${port}`)
 })
 
-server.get('*', function (request, response){
-  response.sendFile(path.resolve(__dirname, 'public', 'index.html'))
-})
-
 module.exports = server

@@ -30,4 +30,3 @@ BillingCycle.route('summary', (req, res, next) => {
 })
 
 module.exports = BillingCycle
-
