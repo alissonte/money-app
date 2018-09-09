@@ -1,8 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+
 import { BrowserRouter } from 'react-router-dom'
 import { applyMiddleware, createStore } from 'redux'
 import { Provider } from 'react-redux'
+
 import promise from 'redux-promise'
 
 import App from './main/app'
